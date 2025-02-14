@@ -1,0 +1,21 @@
+.view_form_button {
+
+    background-color: #E345A4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 25px;
+    transform: translateY(-45px);
+    cursor: pointer;
+    transition: all 0.3s;
+    animation: ease-in-out;
+
+}
+
+.view_form_button:hover {
+
+    scale: 1.1;
+    
+}
+  

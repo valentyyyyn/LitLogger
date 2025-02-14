@@ -1,0 +1,14 @@
+.my-books {
+  margin: 0;
+  transform: translateY(-50px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  place-items: center;
+}
+
+.no-books-added {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 150px;
+}

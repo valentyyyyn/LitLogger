@@ -1,0 +1,34 @@
+.my-books-filters {
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 150px;
+}
+.my-books-filters select {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #5d5fef;
+  outline: none;
+}
+#search-bar {
+  width: 350px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #5d5fef;
+  outline: none;
+  background: none;
+}
+
+#search-bar::placeholder {
+  color: black;
+  font-weight: 500;
+}
